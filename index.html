@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DevFLix</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <img src="img/logo.svg" alt="logo" />
+    </header>
+
+    <!--Div로 감싸고-->
+    <div class="login-form container">
+      <!--Form 시작-->
+      <form action="#">
+        <!--Legend 로 타이틀 (h시리즈 보다 나으려나? )-->
+        <legend>Sign In</legend>
+
+        <!--field #1-->
+        <div class="field">
+          <input type="text" id="username" />
+          <label>Email or Phone Number</label>
+        </div>
+        <!--end of field #1-->
+
+        <!--field #2-->
+        <div class="field">
+          <input type="password" id="password" />
+          <label>Password</label>
+          <span class="toggle-password">SHOW</span>
+        </div>
+        <!--end of field #2-->
+
+        <!--field #3-->
+        <div class="submit">
+          <input type="submit" value="Sign In" />
+        </div>
+        <!--end of field #3-->
+
+        <!--field #4-->
+        <div class="actions">
+          <div class="remember-me">
+            <input type="checkbox" />
+            <label>Remember Me</label>
+          </div>
+          <div class="need-help">
+            <a href="#">Need Help?</a>
+          </div>
+        </div>
+        <!--end of field #4-->
+      </form>
+      <!--end of Form-->
+
+      <div class="bottom-content">
+        <a href="#">Login with Facebook</a>
+        <a href="#" class="new-user"
+          >New to netflex?
+          <span>Sign up now.</span>
+        </a>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Questions? Call 080-7708-3832</p>
+        <nav class="menu-footer">
+          <a href="#">Gift Card Terms</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Privacy Statement</a>
+        </nav>
+        <select name="" id="" class="language">
+          <option value="eng">English</option>
+          <option value="spanish">Spanish</option>
+        </select>
+      </div>
+    </footer>
+
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
